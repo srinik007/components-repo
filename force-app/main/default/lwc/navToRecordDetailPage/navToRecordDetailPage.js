@@ -9,7 +9,7 @@ export default class NavToRecordDetailPage extends NavigationMixin(LightningElem
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {
-                recordId: this.recordId,
+                recordId: '0015i000009UZMGAA4', //this.recordId,
                 objectApiName: this.objectApiName,
                 actionName: 'view'
             }
