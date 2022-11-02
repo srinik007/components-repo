@@ -15,5 +15,4 @@ export default class NavToRecordDetailPage extends NavigationMixin(LightningElem
             }
         });
     }
-    
 }
