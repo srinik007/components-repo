@@ -1,5 +1,12 @@
 <template>
-    <div>
-        <a href="#" onclick={navToRecordView}>Navigate to Record Details Page</a>
+    <div class="slds-p-around_large">
+        <a href="#" onclick={navToRecordView} class={disableLink}>
+            Click Here
+        </a>
+        <lightning-helptext
+            icon-name="utility:info"
+            content="Navigate to Record Page"
+            class="slds-m-left_xx-small slds-p-bottom_medium"
+        ></lightning-helptext>
     </div>
 </template>
